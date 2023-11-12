@@ -28,7 +28,7 @@ h1 {
 .imageinfo {
   display: flex;
   justify-content: center;
-  height: 72px; 
+  height: 72px; 16px
 }
 
 .text {
@@ -38,7 +38,8 @@ h1 {
 }
 
 strong {
-  font-size: 16px;
+  font-size: 30px;
+  color: green;
 }
 
 .Logo {
@@ -52,10 +53,12 @@ strong {
 }
 
 .Signup {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  height: 150px;
+  background: #00FFFF;
+  position: absolute;
+  bottom: 100px;
+  left: 0px;
+  right: 0px;
   display: flex; 
   justify-content: center;
 }
@@ -63,4 +66,12 @@ strong {
 button {
   display: flex; 
   align-items: center;
+  margin: 10px;
+  width: 100px;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  margin: 10px;
 }
