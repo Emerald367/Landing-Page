@@ -11,6 +11,10 @@ h3 {
   align-items: center;
 }
 
+h1 {
+ margin: 0;
+}
+
 .header {
   color: black;
   font-size: 40px;
@@ -22,7 +26,19 @@ h3 {
 }
 
 .imageinfo {
+  display: flex;
+  justify-content: center;
   height: 72px; 
+}
+
+.text {
+  font-size: 32px;
+  position: absolute;
+  bottom: 330px;
+}
+
+strong {
+  font-size: 16px;
 }
 
 .Logo {
@@ -33,5 +49,18 @@ h3 {
  padding: 0px;
  display: flex;
  align-items: flex-start;
+}
 
+.Signup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex; 
+  justify-content: center;
+}
+
+button {
+  display: flex; 
+  align-items: center;
 }
